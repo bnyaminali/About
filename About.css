@@ -1,0 +1,196 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 999px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 4.5rem;
+  margin: 110px auto 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 386px;
+  height: 386px;
+  background-image: url("images/bnyamin.jpg");
+  background-position: 50% 50%;
+  margin: 31px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 400;
+  width: 570px;
+  margin: 31px auto 0;
+}
+
+.u-section-1 .u-text-3 {
+  width: 739px;
+  font-weight: 700;
+  animation-duration: 1000ms;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  line-height: 25.6px;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-text-4 {
+  font-weight: 700;
+  margin: 61px 213px 0 188px;
+}
+
+.u-section-1 .u-social-icons-1 {
+  height: 66px;
+  min-height: 16px;
+  width: 280px;
+  min-width: 130px;
+  margin: 54px auto 59px 404px;
+}
+
+.u-section-1 .u-icon-3 {
+  height: 100%;
+  color: rgb(255, 255, 255) !important;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-4 {
+    width: 739px;
+    margin-left: 88px;
+    margin-right: 113px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-3 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: 720px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 953px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: 340px;
+  }
+}.container
+  height: 100vh
+  width: 100vw
+  max-height: 800px
+  max-width: 1280px
+  min-height: 600px
+  min-width: 1000px
+  display: flex
+  justify-content: space-around
+  align-items: center
+  margin: 0 auto
+.border
+  height: 369px
+  width: 290px
+  background: transparent
+  border-radius: 10px
+  transition: border 1s
+  position: relative
+  &:hover
+    border: 1px solid white
+.card
+  height: 379px
+  width: 300px
+  background: grey
+  border-radius: 10px
+  transition: background 0.8s
+  overflow: hidden
+  background: black
+  box-shadow: 0 70px 63px -60px #000000
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+.card0
+  background: url('https://1.bp.blogspot.com/-76claIyi1x4/YUx-TiSKTbI/AAAAAAAAGJg/1bIC3rvIn-YGpJWDK3HI21GNoz2UFp7owCLcBGAsYHQ/s718/ds.jpg') center center no-repeat
+  background-size: 300px
+  &:hover
+    background: url('https://blogger.googleusercontent.com/img/a/AVvXsEiAIcXVrUtsz6wYLe23JcKHdef-zAvEh4-vKsLmREn_AY0DTRcYSgLWLdJGNDZJqO7oCMRaai4DsZwJiUpV4gbgk24dgobg4yWS-2XoxW9GTPkTZFmQKjmzfZBNs92r7oAS2Xcs7raLTGEiqex1MlaI2APhV7D3IVhjpp-fb4UkmQTQnl-zPUrpcXzBJA=s630') left center no-repeat
+    background-size: 600px
+    h2
+      opacity: 1
+    .fa
+      opacity: 1
+.card1
+  background: url('https://blogger.googleusercontent.com/img/a/AVvXsEiqqKWJIsQlMjaeVkLXPQhR8gjyCQFSa9TIKbODczR-jiU_Va8FmOQtoTn4rmI3kogESw7jD6iPtBGbePH6tG9T8AgpoSKA0PfTnX-i4nNDckRNWljKMe3Suj8dDLPjBOTFckTBNiSGONzd9RZMc1_PKySjpj7cv_y8IB6l6lDJGIxabSmJygSErJLRpQ=s844') center center no-repeat
+  background-size: 300px
+  &:hover
+    background: url('https://blogger.googleusercontent.com/img/a/AVvXsEgPQ9sIL2-U4JeXrv_QpTNsloocN3yxdOOA-ZgGToUFHHfwvZ1FamKzMT65ROzs_I0x4pk-EBTMJT1QRSPZzTZCyjq1KnesLM77fz5_Ish6Nl90MMAnL4CZU3uMELeArppObG1lEChR3-AIxl7fPnSVHY-Iq30Aedwg3SyRQyVaYube4Yf-FIYcVPqGlQ=s1280') left center no-repeat
+    background-size: 600px
+    h2
+      opacity: 1
+    .fa
+      opacity: 1
+.card2
+  background: url('https://blogger.googleusercontent.com/img/a/AVvXsEgPQ9sIL2-U4JeXrv_QpTNsloocN3yxdOOA-ZgGToUFHHfwvZ1FamKzMT65ROzs_I0x4pk-EBTMJT1QRSPZzTZCyjq1KnesLM77fz5_Ish6Nl90MMAnL4CZU3uMELeArppObG1lEChR3-AIxl7fPnSVHY-Iq30Aedwg3SyRQyVaYube4Yf-FIYcVPqGlQ=s1280') center center no-repeat
+  background-size: 300px
+  &:hover
+    background: url('https://blogger.googleusercontent.com/img/a/AVvXsEgPQ9sIL2-U4JeXrv_QpTNsloocN3yxdOOA-ZgGToUFHHfwvZ1FamKzMT65ROzs_I0x4pk-EBTMJT1QRSPZzTZCyjq1KnesLM77fz5_Ish6Nl90MMAnL4CZU3uMELeArppObG1lEChR3-AIxl7fPnSVHY-Iq30Aedwg3SyRQyVaYube4Yf-FIYcVPqGlQ=s1280') left center no-repeat
+    background-size: 600px
+    h2
+      opacity: 1
+    .fa
+      opacity: 1
+h2
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+  color: white
+  margin: 20px
+  opacity: 0
+  transition: opacity 1s
+.fa
+  opacity: 0
+  transition: opacity 1s
+.icons
+  position: absolute
+  fill: #fff
+  color: #fff
+  height: 130px
+  top: 226px
+  width: 50px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-around
